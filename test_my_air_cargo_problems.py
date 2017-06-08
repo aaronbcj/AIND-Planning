@@ -8,11 +8,8 @@ sys.path.append(aim)
 
 for p in sys.path:
     print(p)
+
 from aimacode.planning import Action
-for p in sys.path:
-    print(p)
-
-
 from aimacode.utils import expr
 from aimacode.search import Node
 import unittest
